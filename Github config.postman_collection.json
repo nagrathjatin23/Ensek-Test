@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "0fcf2d86-4818-4b1e-9af5-62a69a509664",
+		"name": "Github config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.github.com/orgs/nagrathjatin23/repos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/orgs/nagrathjatin23/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"orgs",
+						"nagrathjatin23",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/orgs/octokit/repos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/orgs/octokit/repos",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"orgs",
+						"octokit",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/users/nagrathjatin23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/nagrathjatin23",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"nagrathjatin23"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
